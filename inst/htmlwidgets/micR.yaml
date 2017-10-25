@@ -1,0 +1,9 @@
+# (uncomment to add a dependency)
+dependencies:
+  - name: p5
+    version: 1
+    src: htmlwidgets/lib/p5
+    script:
+      - p5.js
+      - p5.sound.js
+      - rendering.js
